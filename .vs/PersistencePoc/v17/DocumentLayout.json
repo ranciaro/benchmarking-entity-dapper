@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\users\\renan\\source\\repos\\persistencepoc\\persistencepoc\\src\\persistencepoc.core\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\users\\renan\\source\\repos\\persistencepoc\\persistencepoc\\src\\persistencepoc.core\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\users\\renan\\source\\repos\\persistencepoc\\persistencepoc\\src\\persistencepoc.core\\entities\\simulacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\entities\\simulacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\users\\renan\\source\\repos\\persistencepoc\\persistencepoc\\src\\persistencepoc.core\\interfaces\\iconcessionariarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\interfaces\\iconcessionariarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}|src\\PersistencePoc.Api\\PersistencePoc.Api.csproj|c:\\users\\renan\\source\\repos\\persistencepoc\\persistencepoc\\src\\persistencepoc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}|src\\PersistencePoc.Api\\PersistencePoc.Api.csproj|solutionrelative:src\\persistencepoc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}|src\\PersistencePoc.Api\\PersistencePoc.Api.csproj|c:\\users\\renan\\source\\repos\\persistencepoc\\persistencepoc\\src\\persistencepoc.api\\concessionaria\\concessionariacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}|src\\PersistencePoc.Api\\PersistencePoc.Api.csproj|solutionrelative:src\\persistencepoc.api\\concessionaria\\concessionariacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}|src\\PersistencePoc.Api\\PersistencePoc.Api.csproj|c:\\users\\renan\\source\\repos\\persistencepoc\\persistencepoc\\src\\persistencepoc.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}|src\\PersistencePoc.Api\\PersistencePoc.Api.csproj|solutionrelative:src\\persistencepoc.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}|src\\PersistencePoc.Api\\PersistencePoc.Api.csproj|c:\\users\\renan\\source\\repos\\persistencepoc\\persistencepoc\\src\\persistencepoc.api\\persistencepoc.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}|src\\PersistencePoc.Api\\PersistencePoc.Api.csproj|solutionrelative:src\\persistencepoc.api\\persistencepoc.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Core\\Entities\\Produto.cs",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Entities\\Produto.cs",
+              "ToolTip": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Core\\Entities\\Produto.cs",
+              "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T22:11:09.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Core\\Entities\\Cliente.cs",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Entities\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Core\\Entities\\Cliente.cs",
+              "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T22:10:48.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Simulacao.cs",
+              "DocumentMoniker": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Core\\Entities\\Simulacao.cs",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Entities\\Simulacao.cs",
+              "ToolTip": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Core\\Entities\\Simulacao.cs",
+              "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Simulacao.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAUwDcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T22:09:58.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IConcessionariaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Core\\Interfaces\\IConcessionariaRepository.cs",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Interfaces\\IConcessionariaRepository.cs",
+              "ToolTip": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Core\\Interfaces\\IConcessionariaRepository.cs",
+              "RelativeToolTip": "src\\PersistencePoc.Core\\Interfaces\\IConcessionariaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T22:05:26.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Api\\Program.cs",
+              "RelativeToolTip": "src\\PersistencePoc.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T22:04:45.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConcessionariaController.cs",
+              "DocumentMoniker": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Api\\Concessionaria\\ConcessionariaController.cs",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Api\\Concessionaria\\ConcessionariaController.cs",
+              "ToolTip": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Api\\Concessionaria\\ConcessionariaController.cs",
+              "RelativeToolTip": "src\\PersistencePoc.Api\\Concessionaria\\ConcessionariaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T21:53:47.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Api\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Api\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Api\\WeatherForecast.cs",
+              "RelativeToolTip": "src\\PersistencePoc.Api\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T21:52:44.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PersistencePoc.Api.http",
+              "DocumentMoniker": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Api\\PersistencePoc.Api.http",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Api\\PersistencePoc.Api.http",
+              "ToolTip": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Api\\PersistencePoc.Api.http",
+              "RelativeToolTip": "src\\PersistencePoc.Api\\PersistencePoc.Api.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-20T21:52:38.497Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
