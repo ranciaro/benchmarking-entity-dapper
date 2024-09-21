@@ -1,38 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\",
+  "WorkspaceRootPath": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\users\\renan\\source\\repos\\persistencepoc\\persistencepoc\\src\\persistencepoc.core\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}|src\\PersistencePoc.Api\\PersistencePoc.Api.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}|src\\PersistencePoc.Api\\PersistencePoc.Api.csproj|solutionrelative:src\\persistencepoc.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\users\\renan\\source\\repos\\persistencepoc\\persistencepoc\\src\\persistencepoc.core\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.core\\context\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\context\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\users\\renan\\source\\repos\\persistencepoc\\persistencepoc\\src\\persistencepoc.core\\entities\\simulacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.core\\persistencepoc.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\persistencepoc.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.core\\entities\\proposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\entities\\proposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.core\\entities\\simulacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\entities\\simulacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\users\\renan\\source\\repos\\persistencepoc\\persistencepoc\\src\\persistencepoc.core\\interfaces\\iconcessionariarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\interfaces\\iconcessionariarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.core\\entities\\seguro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\entities\\seguro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}|src\\PersistencePoc.Api\\PersistencePoc.Api.csproj|c:\\users\\renan\\source\\repos\\persistencepoc\\persistencepoc\\src\\persistencepoc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}|src\\PersistencePoc.Api\\PersistencePoc.Api.csproj|solutionrelative:src\\persistencepoc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.core\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}|src\\PersistencePoc.Api\\PersistencePoc.Api.csproj|c:\\users\\renan\\source\\repos\\persistencepoc\\persistencepoc\\src\\persistencepoc.api\\concessionaria\\concessionariacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}|src\\PersistencePoc.Api\\PersistencePoc.Api.csproj|solutionrelative:src\\persistencepoc.api\\concessionaria\\concessionariacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.core\\entities\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\entities\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}|src\\PersistencePoc.Api\\PersistencePoc.Api.csproj|c:\\users\\renan\\source\\repos\\persistencepoc\\persistencepoc\\src\\persistencepoc.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}|src\\PersistencePoc.Api\\PersistencePoc.Api.csproj|solutionrelative:src\\persistencepoc.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.core\\entities\\clienteconcessionaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\entities\\clienteconcessionaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}|src\\PersistencePoc.Api\\PersistencePoc.Api.csproj|c:\\users\\renan\\source\\repos\\persistencepoc\\persistencepoc\\src\\persistencepoc.api\\persistencepoc.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}|src\\PersistencePoc.Api\\PersistencePoc.Api.csproj|solutionrelative:src\\persistencepoc.api\\persistencepoc.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.core\\entities\\concessionaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\entities\\concessionaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.core\\entities\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\entities\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.core\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.core\\entities\\cep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\entities\\cep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.core\\entities\\tipodocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\entities\\tipodocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.core\\repositories\\concessionariarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\repositories\\concessionariarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,107 +73,202 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Core\\Entities\\Produto.cs",
-              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Entities\\Produto.cs",
-              "ToolTip": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Core\\Entities\\Produto.cs",
-              "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Produto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T22:11:09.064Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Core\\Entities\\Cliente.cs",
-              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Entities\\Cliente.cs",
-              "ToolTip": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Core\\Entities\\Cliente.cs",
-              "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Cliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T22:10:48.177Z",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Api\\appsettings.Development.json",
+              "RelativeToolTip": "src\\PersistencePoc.Api\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-21T15:20:46.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Simulacao.cs",
-              "DocumentMoniker": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Core\\Entities\\Simulacao.cs",
-              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Entities\\Simulacao.cs",
-              "ToolTip": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Core\\Entities\\Simulacao.cs",
-              "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Simulacao.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAUwDcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T22:09:58.585Z",
+              "Title": "PersistencePoc.Core",
+              "DocumentMoniker": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\PersistencePoc.Core.csproj",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\PersistencePoc.Core.csproj",
+              "ToolTip": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\PersistencePoc.Core.csproj",
+              "RelativeToolTip": "src\\PersistencePoc.Core\\PersistencePoc.Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-21T15:17:51.5Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IConcessionariaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Core\\Interfaces\\IConcessionariaRepository.cs",
-              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Interfaces\\IConcessionariaRepository.cs",
-              "ToolTip": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Core\\Interfaces\\IConcessionariaRepository.cs",
-              "RelativeToolTip": "src\\PersistencePoc.Core\\Interfaces\\IConcessionariaRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAuAAAA",
+              "Title": "Proposta.cs",
+              "DocumentMoniker": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Proposta.cs",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Entities\\Proposta.cs",
+              "ToolTip": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Proposta.cs",
+              "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Proposta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T22:05:26.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Api\\Program.cs",
-              "RelativeDocumentMoniker": "src\\PersistencePoc.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Api\\Program.cs",
-              "RelativeToolTip": "src\\PersistencePoc.Api\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T22:04:45.042Z",
+              "WhenOpened": "2024-09-21T15:16:29.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ConcessionariaController.cs",
-              "DocumentMoniker": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Api\\Concessionaria\\ConcessionariaController.cs",
-              "RelativeDocumentMoniker": "src\\PersistencePoc.Api\\Concessionaria\\ConcessionariaController.cs",
-              "ToolTip": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Api\\Concessionaria\\ConcessionariaController.cs",
-              "RelativeToolTip": "src\\PersistencePoc.Api\\Concessionaria\\ConcessionariaController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Title": "Seguro.cs",
+              "DocumentMoniker": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Seguro.cs",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Entities\\Seguro.cs",
+              "ToolTip": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Seguro.cs",
+              "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Seguro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T21:53:47.056Z",
+              "WhenOpened": "2024-09-21T15:14:55.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Api\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "src\\PersistencePoc.Api\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Api\\WeatherForecast.cs",
-              "RelativeToolTip": "src\\PersistencePoc.Api\\WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Produto.cs",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Entities\\Produto.cs",
+              "ToolTip": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Produto.cs",
+              "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T21:52:44.29Z",
+              "WhenOpened": "2024-09-21T15:14:37.286Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "PersistencePoc.Api.http",
-              "DocumentMoniker": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Api\\PersistencePoc.Api.http",
-              "RelativeDocumentMoniker": "src\\PersistencePoc.Api\\PersistencePoc.Api.http",
-              "ToolTip": "C:\\Users\\Renan\\source\\repos\\PersistencePoc\\PersistencePoc\\src\\PersistencePoc.Api\\PersistencePoc.Api.http",
-              "RelativeToolTip": "src\\PersistencePoc.Api\\PersistencePoc.Api.http",
+              "Title": "Vendedor.cs",
+              "DocumentMoniker": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Vendedor.cs",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Entities\\Vendedor.cs",
+              "ToolTip": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Vendedor.cs",
+              "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Vendedor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:14:20.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClienteConcessionaria.cs",
+              "DocumentMoniker": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\ClienteConcessionaria.cs",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Entities\\ClienteConcessionaria.cs",
+              "ToolTip": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\ClienteConcessionaria.cs",
+              "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\ClienteConcessionaria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:14:03.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Concessionaria.cs",
+              "DocumentMoniker": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Concessionaria.cs",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Entities\\Concessionaria.cs",
+              "ToolTip": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Concessionaria.cs",
+              "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Concessionaria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:13:49.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Endereco.cs",
+              "DocumentMoniker": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Endereco.cs",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Entities\\Endereco.cs",
+              "ToolTip": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Endereco.cs",
+              "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Endereco.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:13:29.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Cep.cs",
+              "DocumentMoniker": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Cep.cs",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Entities\\Cep.cs",
+              "ToolTip": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Cep.cs",
+              "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Cep.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:12:49.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TipoDocumento.cs",
+              "DocumentMoniker": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\TipoDocumento.cs",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Entities\\TipoDocumento.cs",
+              "ToolTip": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\TipoDocumento.cs",
+              "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\TipoDocumento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:09:02.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Context\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Context\\DatabaseContext.cs",
+              "ToolTip": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Context\\DatabaseContext.cs",
+              "RelativeToolTip": "src\\PersistencePoc.Core\\Context\\DatabaseContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:04:33.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Cliente.cs",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Entities\\Cliente.cs",
+              "ToolTip": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Cliente.cs",
+              "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:04:29.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Simulacao.cs",
+              "DocumentMoniker": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Simulacao.cs",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Entities\\Simulacao.cs",
+              "ToolTip": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Simulacao.cs",
+              "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Simulacao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:04:20.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ConcessionariaRepository.cs",
+              "DocumentMoniker": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Repositories\\ConcessionariaRepository.cs",
+              "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Repositories\\ConcessionariaRepository.cs",
+              "ToolTip": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Repositories\\ConcessionariaRepository.cs",
+              "RelativeToolTip": "src\\PersistencePoc.Core\\Repositories\\ConcessionariaRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-09-20T21:52:38.497Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:04:16.219Z",
               "EditorCaption": ""
             }
           ]
