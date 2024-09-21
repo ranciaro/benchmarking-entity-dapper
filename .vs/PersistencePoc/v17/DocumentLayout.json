@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.core\\entities\\proposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\entities\\proposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.core\\entities\\simulacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\entities\\simulacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}|src\\PersistencePoc.Api\\PersistencePoc.Api.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}|src\\PersistencePoc.Api\\PersistencePoc.Api.csproj|solutionrelative:src\\persistencepoc.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -13,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.core\\persistencepoc.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\persistencepoc.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.core\\entities\\proposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\entities\\proposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.core\\entities\\simulacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|solutionrelative:src\\persistencepoc.core\\entities\\simulacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}|src\\PersistencePoc.Core\\PersistencePoc.Core.csproj|c:\\pocs\\dotnet\\benchmarking-entity-dapper\\src\\persistencepoc.core\\entities\\seguro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,39 +78,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "src\\PersistencePoc.Api\\appsettings.Development.json",
               "ToolTip": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Api\\appsettings.Development.json",
               "RelativeToolTip": "src\\PersistencePoc.Api\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-21T15:20:46.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PersistencePoc.Core",
+              "DocumentIndex": 4,
+              "Title": "PersistencePoc.Core.csproj",
               "DocumentMoniker": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\PersistencePoc.Core.csproj",
               "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\PersistencePoc.Core.csproj",
               "ToolTip": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\PersistencePoc.Core.csproj",
               "RelativeToolTip": "src\\PersistencePoc.Core\\PersistencePoc.Core.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-21T15:17:51.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T15:17:51.5Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Proposta.cs",
               "DocumentMoniker": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Proposta.cs",
               "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Entities\\Proposta.cs",
               "ToolTip": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Proposta.cs",
               "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Proposta.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAA+wDQAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T15:16:29.058Z",
               "EditorCaption": ""
@@ -125,8 +124,7 @@
               "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Seguro.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T15:14:55.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T15:14:55.92Z"
             },
             {
               "$type": "Document",
@@ -138,8 +136,7 @@
               "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Produto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T15:14:37.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T15:14:37.286Z"
             },
             {
               "$type": "Document",
@@ -151,8 +148,7 @@
               "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Vendedor.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T15:14:20.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T15:14:20.605Z"
             },
             {
               "$type": "Document",
@@ -164,8 +160,7 @@
               "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\ClienteConcessionaria.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T15:14:03.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T15:14:03.403Z"
             },
             {
               "$type": "Document",
@@ -177,8 +172,7 @@
               "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Concessionaria.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T15:13:49.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T15:13:49.591Z"
             },
             {
               "$type": "Document",
@@ -190,8 +184,7 @@
               "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Endereco.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T15:13:29.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T15:13:29.674Z"
             },
             {
               "$type": "Document",
@@ -203,8 +196,7 @@
               "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Cep.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T15:12:49.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T15:12:49.202Z"
             },
             {
               "$type": "Document",
@@ -216,12 +208,11 @@
               "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\TipoDocumento.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T15:09:02.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T15:09:02.69Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DatabaseContext.cs",
               "DocumentMoniker": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Context\\DatabaseContext.cs",
               "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Context\\DatabaseContext.cs",
@@ -229,8 +220,7 @@
               "RelativeToolTip": "src\\PersistencePoc.Core\\Context\\DatabaseContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T15:04:33.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T15:04:33.687Z"
             },
             {
               "$type": "Document",
@@ -242,18 +232,17 @@
               "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Cliente.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T15:04:29.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T15:04:29.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Simulacao.cs",
               "DocumentMoniker": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Simulacao.cs",
               "RelativeDocumentMoniker": "src\\PersistencePoc.Core\\Entities\\Simulacao.cs",
               "ToolTip": "C:\\Pocs\\DotNet\\benchmarking-entity-dapper\\src\\PersistencePoc.Core\\Entities\\Simulacao.cs",
               "RelativeToolTip": "src\\PersistencePoc.Core\\Entities\\Simulacao.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAA8AAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAUwCkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T15:04:20.949Z",
               "EditorCaption": ""
@@ -268,8 +257,7 @@
               "RelativeToolTip": "src\\PersistencePoc.Core\\Repositories\\ConcessionariaRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T15:04:16.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T15:04:16.219Z"
             }
           ]
         }
