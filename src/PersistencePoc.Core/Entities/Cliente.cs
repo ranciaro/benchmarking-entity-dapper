@@ -22,11 +22,11 @@ namespace PersistencePoc.Core.Entities
 
         // Navigation Properties
         public int? TipoDocumentoId { get; set; }
-        public TipoDocumento? TipoDocumento { get; set; }
-        public ICollection<Endereco>? Enderecos { get; set; }
-        public ICollection<ClienteConcessionaria>? ClienteConcessionarias { get; set; }
-        public ICollection<Simulacao>? Simulacoes { get; set; }
-        public ICollection<Proposta>? Propostas { get; set; }
-        public ICollection<Seguro>? Seguros { get; set; }
+        public virtual TipoDocumento? TipoDocumento { get; set; }
+        public virtual ICollection<Endereco>? Enderecos { get; set; }
+        public virtual ICollection<ClienteConcessionaria>? ClienteConcessionarias { get; set; }
+        public virtual ICollection<Simulacao>? Simulacoes { get; set; }
+        public virtual ICollection<Proposta>? Propostas { get; set; }
+        public virtual ICollection<Seguro>? Seguros { get; set; }
     }
 }

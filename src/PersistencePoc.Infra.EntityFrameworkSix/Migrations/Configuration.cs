@@ -132,17 +132,18 @@
                     DataEnvioDocumentos = DateTime.Now
                 };
 
-                context.Ceps.Add(cep);
-                context.Enderecos.Add(endereco);
-                context.Concessionarias.Add(concessionaria);
-                context.Clientes.Add(cliente);
-                context.Vendedores.Add(vendedor);
-                context.Produtos.Add(produto);
-                context.Simulacoes.Add(simulacao);
-                context.Propostas.Add(proposta);
+                context.Ceps!.Add(cep);
+                context.Enderecos!.Add(endereco);
+                context.Concessionarias!.Add(concessionaria);
+                context.Clientes!.Add(cliente);
+                context.Vendedores!.Add(vendedor);
+                context.Produtos!.Add(produto);
+                context.Simulacoes!.Add(simulacao);
+                context.Propostas!.Add(proposta);
+                context.SaveChanges();
             }
 
-            context.SaveChanges();
+            
         }
 
 

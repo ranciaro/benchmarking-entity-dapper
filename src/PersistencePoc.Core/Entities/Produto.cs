@@ -17,8 +17,8 @@ namespace PersistencePoc.Core.Entities
         public bool Ativo { get; set; }
 
         // Navigation Properties
-        public ICollection<Simulacao>? Simulacoes { get; set; }
-        public ICollection<Proposta>? Propostas { get; set; }
-        public ICollection<Seguro>? Seguros { get; set; }
+        public virtual ICollection<Simulacao>? Simulacoes { get; set; }
+        public virtual ICollection<Proposta>? Propostas { get; set; }
+        public virtual ICollection<Seguro>? Seguros { get; set; }
     }
 }

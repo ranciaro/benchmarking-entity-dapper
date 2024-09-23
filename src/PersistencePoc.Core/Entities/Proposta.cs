@@ -41,16 +41,16 @@ namespace PersistencePoc.Core.Entities
 
         // Navigation Properties
         public int? SimulacaoId { get; set; }
-        public Simulacao? Simulacao { get; set; }
+        public virtual Simulacao? Simulacao { get; set; }
         public int? ClienteId { get; set; }
-        public Cliente? Cliente { get; set; }
+        public virtual Cliente? Cliente { get; set; }
         public int? ProdutoId { get; set; }
-        public Produto? Produto { get; set; }
+        public virtual Produto? Produto { get; set; }
         public int? ConcessionariaId { get; set; }
-        public Concessionaria? Concessionaria { get; set; }
+        public virtual Concessionaria? Concessionaria { get; set; }
         public int? SeguroId { get; set; }
-        public Seguro? Seguro { get; set; }
+        public virtual Seguro? Seguro { get; set; }
         public int? VendedorId { get; set; }
-        public Vendedor? Vendedor { get; set; }
+        public virtual Vendedor? Vendedor { get; set; }
     }
 }

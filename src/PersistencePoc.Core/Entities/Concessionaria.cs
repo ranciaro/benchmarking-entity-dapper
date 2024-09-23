@@ -12,12 +12,12 @@ namespace PersistencePoc.Core.Entities
 
         // Navigation Properties
         public int? EnderecoId { get; set; }
-        public Endereco? Endereco { get; set; }
-        public ICollection<Vendedor>? Vendedores { get; set; }
-        public ICollection<ClienteConcessionaria>? ClienteConcessionarias { get; set; }
-        public ICollection<Simulacao>? Simulacoes { get; set; }
-        public ICollection<Proposta>? Propostas { get; set; }
-        public ICollection<Seguro>? Seguros { get; set; }
+        public virtual Endereco? Endereco { get; set; }
+        public virtual ICollection<Vendedor>? Vendedores { get; set; }
+        public virtual ICollection<ClienteConcessionaria>? ClienteConcessionarias { get; set; }
+        public virtual ICollection<Simulacao>? Simulacoes { get; set; }
+        public virtual ICollection<Proposta>? Propostas { get; set; }
+        public virtual ICollection<Seguro>? Seguros { get; set; }
     }
 
 }

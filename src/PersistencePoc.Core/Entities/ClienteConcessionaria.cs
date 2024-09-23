@@ -12,8 +12,8 @@ namespace PersistencePoc.Core.Entities
 
         // Navigation Properties
         public int? ClienteId { get; set; }
-        public Cliente? Cliente { get; set; }
+        public virtual Cliente? Cliente { get; set; }
         public int? ConcessionariaId { get; set; }
-        public Concessionaria? Concessionaria { get; set; }
+        public virtual Concessionaria? Concessionaria { get; set; }
     }
 }

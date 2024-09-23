@@ -17,7 +17,7 @@ namespace PersistencePoc.Core.Entities
         public string? Complemento { get; set; }
 
         // Navigation Properties
-        public ICollection<Endereco>? Enderecos { get; set; }
+        public virtual ICollection<Endereco>? Enderecos { get; set; }
     }
 
 }

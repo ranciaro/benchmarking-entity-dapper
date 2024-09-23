@@ -34,14 +34,14 @@ namespace PersistencePoc.Core.Entities
 
         // Navigation Properties
         public int? ClienteId { get; set; }
-        public Cliente? Cliente { get; set; }
+        public virtual Cliente? Cliente { get; set; }
         public int? ProdutoId { get; set; }
-        public Produto? Produto { get; set; }
+        public virtual Produto? Produto { get; set; }
         public int? VendedorId { get; set; }
-        public Vendedor? Vendedor { get; set; }
+        public virtual Vendedor? Vendedor { get; set; }
         public int? ConcessionariaId { get; set; }
-        public Concessionaria? Concessionaria { get; set; }
-        public ICollection<Simulacao>? Simulacoes { get; set; }
-        public ICollection<Proposta>? Propostas { get; set; }
+        public virtual Concessionaria? Concessionaria { get; set; }
+        public virtual ICollection<Simulacao>? Simulacoes { get; set; }
+        public virtual ICollection<Proposta>? Propostas { get; set; }
     }
 }

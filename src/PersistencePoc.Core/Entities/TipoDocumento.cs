@@ -17,7 +17,7 @@ namespace PersistencePoc.Core.Entities
         public string? PaisEmissor { get; set; }
 
         // Navigation Properties
-        public ICollection<Cliente>? Clientes { get; set; }
-        public ICollection<Vendedor>? Vendedores { get; set; }
+        public virtual ICollection<Cliente>? Clientes { get; set; }
+        public virtual ICollection<Vendedor>? Vendedores { get; set; }
     }
 }

@@ -6,7 +6,7 @@ namespace PersistencePoc.Infra.EntityFrameworkSix.Context
 {
     public class DatabaseContext : DbContext
     {
-        public DatabaseContext() : base("Server=localhost;Database=poc-test-entity;User Id=sa;Password=Password@123")
+        public DatabaseContext() : base("Server=localhost;Database=poc-test;User Id=entity;Password=Password@123")
         {
         }
 

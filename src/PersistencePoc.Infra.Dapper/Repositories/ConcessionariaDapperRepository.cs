@@ -62,7 +62,7 @@ namespace PersistencePoc.Infra.Dapper.Repositories
             IDbConnection dbConnection = _context.CreateConnection();
             try
             {
-                string sqlQuery = "SELECT * FROM Concessionaria ORDER BY Id";
+                string sqlQuery = "SELECT * FROM Concessionaria (NOLOCK) ORDER BY Id";
 
                 IEnumerable<Concessionaria> concessionarias = await dbConnection.QueryAsync<Concessionaria>(sqlQuery);
 
@@ -80,6 +80,7 @@ namespace PersistencePoc.Infra.Dapper.Repositories
         public void Dispose()
         {
             Dispose(true);
+            GC.Collect();
             GC.SuppressFinalize(this);
         }
 

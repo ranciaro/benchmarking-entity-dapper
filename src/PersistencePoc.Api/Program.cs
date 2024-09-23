@@ -1,5 +1,7 @@
 using PersistencePoc.Infra.Dapper.Interfaces;
 using PersistencePoc.Infra.Dapper.Repositories;
+using PersistencePoc.Infra.EntityFrameworkSix.Interfaces;
+using PersistencePoc.Infra.EntityFrameworkSix.Repositories;
 
 namespace PersistencePoc.Api
 {
@@ -23,6 +25,7 @@ namespace PersistencePoc.Api
             });
 
             builder.Services.AddScoped<IConcessionariaDapperRepository, ConcessionariaDapperRepository>();
+            builder.Services.AddScoped<IConcessionariaEntityRepository, ConcessionariaEntityRepository>();
             builder.Services.AddMemoryCache();
 
             var app = builder.Build();
