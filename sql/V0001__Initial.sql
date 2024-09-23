@@ -1,6 +1,6 @@
 -- Table: TipoDocumento
 CREATE TABLE TipoDocumento (
-    TipoDocumentoID INT IDENTITY(1,1) PRIMARY KEY,
+    Id INT IDENTITY(1,1) PRIMARY KEY,
     Nome VARCHAR(100) NOT NULL,
     Descricao VARCHAR(255),
     Ativo BIT NOT NULL DEFAULT 1,
@@ -14,7 +14,7 @@ CREATE TABLE TipoDocumento (
 
 -- Table: Cep
 CREATE TABLE Cep (
-    CepID INT IDENTITY(1,1) PRIMARY KEY,
+    Id INT IDENTITY(1,1) PRIMARY KEY,
     Codigo VARCHAR(20) NOT NULL,
     Logradouro VARCHAR(255),
     Bairro VARCHAR(100),
@@ -28,7 +28,7 @@ CREATE TABLE Cep (
 
 -- Table: Cliente
 CREATE TABLE Cliente (
-    ClienteID INT IDENTITY(1,1) PRIMARY KEY,
+    Id INT IDENTITY(1,1) PRIMARY KEY,
     Nome VARCHAR(100) NOT NULL,
     Sobrenome VARCHAR(100),
     DataNascimento DATETIME,
@@ -43,12 +43,12 @@ CREATE TABLE Cliente (
     RendaMensal DECIMAL(18,2),
     Telefone VARCHAR(20),
     Email VARCHAR(100),
-    FOREIGN KEY (TipoDocumentoID) REFERENCES TipoDocumento(TipoDocumentoID)
+    FOREIGN KEY (TipoDocumentoID) REFERENCES TipoDocumento(Id)
 );
 
 -- Table: Endereco
 CREATE TABLE Endereco (
-    EnderecoID INT IDENTITY(1,1) PRIMARY KEY,
+    Id INT IDENTITY(1,1) PRIMARY KEY,
     TipoEndereco VARCHAR(50),
     Numero VARCHAR(20),
     Complemento VARCHAR(100),
@@ -68,18 +68,18 @@ CREATE TABLE Endereco (
     Fax VARCHAR(20),
     Email VARCHAR(100),
     EnderecoCorrespondencia BIT,
-    FOREIGN KEY (ClienteID) REFERENCES Cliente(ClienteID),
-    FOREIGN KEY (CepID) REFERENCES Cep(CepID)
+    FOREIGN KEY (ClienteID) REFERENCES Cliente(Id),
+    FOREIGN KEY (CepID) REFERENCES Cep(Id)
 );
 
 -- Table: Concessionaria
 CREATE TABLE Concessionaria (
-    ConcessionariaID INT IDENTITY(1,1) PRIMARY KEY,
+    Id INT IDENTITY(1,1) PRIMARY KEY,
     Nome VARCHAR(100) NOT NULL,
     CNPJ VARCHAR(20),
     Telefone VARCHAR(20),
     EnderecoID INT,
-    FOREIGN KEY (EnderecoID) REFERENCES Endereco(EnderecoID)
+    FOREIGN KEY (EnderecoID) REFERENCES Endereco(Id)
 );
 
 -- Table: ClienteConcessionaria (many-to-many between Cliente and Concessionaria)
@@ -90,13 +90,13 @@ CREATE TABLE ClienteConcessionaria (
     DataFimRelacionamento DATETIME,
     Observacoes VARCHAR(255),
     PRIMARY KEY (ClienteID, ConcessionariaID),
-    FOREIGN KEY (ClienteID) REFERENCES Cliente(ClienteID),
-    FOREIGN KEY (ConcessionariaID) REFERENCES Concessionaria(ConcessionariaID)
+    FOREIGN KEY (ClienteID) REFERENCES Cliente(Id),
+    FOREIGN KEY (ConcessionariaID) REFERENCES Concessionaria(Id)
 );
 
 -- Table: Vendedor
 CREATE TABLE Vendedor (
-    VendedorID INT IDENTITY(1,1) PRIMARY KEY,
+    Id INT IDENTITY(1,1) PRIMARY KEY,
     Nome VARCHAR(100) NOT NULL,
     Sobrenome VARCHAR(100),
     TipoDocumentoID INT NOT NULL,
@@ -111,14 +111,14 @@ CREATE TABLE Vendedor (
     ConcessionariaID INT NOT NULL,
     Ativo BIT NOT NULL DEFAULT 1,
     Observacoes VARCHAR(255),
-    FOREIGN KEY (TipoDocumentoID) REFERENCES TipoDocumento(TipoDocumentoID),
-    FOREIGN KEY (EnderecoID) REFERENCES Endereco(EnderecoID),
-    FOREIGN KEY (ConcessionariaID) REFERENCES Concessionaria(ConcessionariaID)
+    FOREIGN KEY (TipoDocumentoID) REFERENCES TipoDocumento(Id),
+    FOREIGN KEY (EnderecoID) REFERENCES Endereco(Id),
+    FOREIGN KEY (ConcessionariaID) REFERENCES Concessionaria(Id)
 );
 
 -- Table: Produtos
 CREATE TABLE Produtos (
-    ProdutoID INT IDENTITY(1,1) PRIMARY KEY,
+    Id INT IDENTITY(1,1) PRIMARY KEY,
     Nome VARCHAR(100) NOT NULL,
     Descricao VARCHAR(255),
     Marca VARCHAR(100),
@@ -132,7 +132,7 @@ CREATE TABLE Produtos (
 
 -- Table: Seguros
 CREATE TABLE Seguros (
-    SeguroID INT IDENTITY(1,1) PRIMARY KEY,
+    Id INT IDENTITY(1,1) PRIMARY KEY,
     Nome VARCHAR(100) NOT NULL,
     Descricao VARCHAR(255),
     ValorPremio DECIMAL(18,2),
@@ -162,15 +162,15 @@ CREATE TABLE Seguros (
     MorteAcidental BIT,
     InvalidezPermanente BIT,
     AssistenciaFuneral BIT,
-    FOREIGN KEY (ClienteID) REFERENCES Cliente(ClienteID),
-    FOREIGN KEY (ProdutoID) REFERENCES Produtos(ProdutoID),
-    FOREIGN KEY (VendedorID) REFERENCES Vendedor(VendedorID),
-    FOREIGN KEY (ConcessionariaID) REFERENCES Concessionaria(ConcessionariaID)
+    FOREIGN KEY (ClienteID) REFERENCES Cliente(Id),
+    FOREIGN KEY (ProdutoID) REFERENCES Produtos(Id),
+    FOREIGN KEY (VendedorID) REFERENCES Vendedor(Id),
+    FOREIGN KEY (ConcessionariaID) REFERENCES Concessionaria(Id)
 );
 
 -- Table: Simulacao
 CREATE TABLE Simulacao (
-    SimulacaoID INT IDENTITY(1,1) PRIMARY KEY,
+    Id INT IDENTITY(1,1) PRIMARY KEY,
     DataSimulacao DATETIME NOT NULL DEFAULT GETDATE(),
     ClienteID INT NOT NULL,
     VendedorID INT NOT NULL,
@@ -201,16 +201,16 @@ CREATE TABLE Simulacao (
     TipoFinanciamento VARCHAR(50),
     BancoFinanciador VARCHAR(100),
     Aprovado BIT,
-    FOREIGN KEY (ClienteID) REFERENCES Cliente(ClienteID),
-    FOREIGN KEY (VendedorID) REFERENCES Vendedor(VendedorID),
-    FOREIGN KEY (ConcessionariaID) REFERENCES Concessionaria(ConcessionariaID),
-    FOREIGN KEY (ProdutoID) REFERENCES Produtos(ProdutoID),
-    FOREIGN KEY (SeguroID) REFERENCES Seguros(SeguroID)
+    FOREIGN KEY (ClienteID) REFERENCES Cliente(Id),
+    FOREIGN KEY (VendedorID) REFERENCES Vendedor(Id),
+    FOREIGN KEY (ConcessionariaID) REFERENCES Concessionaria(Id),
+    FOREIGN KEY (ProdutoID) REFERENCES Produtos(Id),
+    FOREIGN KEY (SeguroID) REFERENCES Seguros(Id)
 );
 
 -- Table: Propostas
 CREATE TABLE Propostas (
-    PropostaID INT IDENTITY(1,1) PRIMARY KEY,
+    Id INT IDENTITY(1,1) PRIMARY KEY,
     SimulacaoID INT NOT NULL,
     ClienteID INT NOT NULL,
     ProdutoID INT NOT NULL,
@@ -251,10 +251,10 @@ CREATE TABLE Propostas (
     ScoreCredito INT,
     Garantias VARCHAR(255),
     ContratoGerado BIT,
-    FOREIGN KEY (SimulacaoID) REFERENCES Simulacao(SimulacaoID),
-    FOREIGN KEY (ClienteID) REFERENCES Cliente(ClienteID),
-    FOREIGN KEY (ProdutoID) REFERENCES Produtos(ProdutoID),
-    FOREIGN KEY (ConcessionariaID) REFERENCES Concessionaria(ConcessionariaID),
-    FOREIGN KEY (SeguroID) REFERENCES Seguros(SeguroID),
-    FOREIGN KEY (VendedorID) REFERENCES Vendedor(VendedorID)
+    FOREIGN KEY (SimulacaoID) REFERENCES Simulacao(Id),
+    FOREIGN KEY (ClienteID) REFERENCES Cliente(Id),
+    FOREIGN KEY (ProdutoID) REFERENCES Produtos(Id),
+    FOREIGN KEY (ConcessionariaID) REFERENCES Concessionaria(Id),
+    FOREIGN KEY (SeguroID) REFERENCES Seguros(Id),
+    FOREIGN KEY (VendedorID) REFERENCES Vendedor(Id)
 );

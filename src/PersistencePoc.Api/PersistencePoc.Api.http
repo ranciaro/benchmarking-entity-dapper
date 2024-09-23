@@ -1,6 +1,23 @@
 @PersistencePoc.Api_HostAddress = http://localhost:5197
 
-GET {{PersistencePoc.Api_HostAddress}}/weatherforecast/
+### Get Level One
+GET {{PersistencePoc.Api_HostAddress}}/api/concessionaria/LevelOne
 Accept: application/json
 
 ###
+
+### Get Level Two
+GET {{PersistencePoc.Api_HostAddress}}/api/concessionaria/LevelTwo
+Accept: application/json
+
+###
+
+### Get Level Three
+GET {{PersistencePoc.Api_HostAddress}}/api/concessionaria/LevelThree
+Accept: application/json
+
+###
+
+### Get Level Four
+GET {{PersistencePoc.Api_HostAddress}}/api/concessionaria/LevelFour?pageNumber=1&pageSize=10
+Accept: application/json

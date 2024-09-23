@@ -12,6 +12,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PersistencePoc.Core\PersistencePoc.Core.csproj" />
+    <ProjectReference Include="..\PersistencePoc.Infra.Dapper\PersistencePoc.Infra.Dapper.csproj" />
+    <ProjectReference Include="..\PersistencePoc.Infra.EntityFrameworkSix\PersistencePoc.Infra.EntityFrameworkSix.csproj" />
   </ItemGroup>
 
 </Project>

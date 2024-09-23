@@ -1,6 +1,5 @@
-
-using PersistencePoc.Core.Context;
-using PersistencePoc.Core.Repositories;
+using PersistencePoc.Infra.Dapper.Interfaces;
+using PersistencePoc.Infra.Dapper.Repositories;
 
 namespace PersistencePoc.Api
 {
@@ -11,14 +10,20 @@ namespace PersistencePoc.Api
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            builder.Services.AddSingleton<DatabaseContext>();
-            builder.Services.AddScoped<ConcessionariaRepository>();
+            builder.Services.AddScoped<Infra.EntityFrameworkSix.Context.DatabaseContext>();
 
+            // Change DatabaseContext registration to Scoped
+            builder.Services.AddScoped(provider =>
+            {
+                var configuration = provider.GetRequiredService<IConfiguration>();
+                return new Infra.Dapper.Context.DatabaseContext(configuration);
+            });
+
+            builder.Services.AddScoped<IConcessionariaDapperRepository, ConcessionariaDapperRepository>();
+            builder.Services.AddMemoryCache();
 
             var app = builder.Build();
 
@@ -40,3 +45,4 @@ namespace PersistencePoc.Api
         }
     }
 }
+

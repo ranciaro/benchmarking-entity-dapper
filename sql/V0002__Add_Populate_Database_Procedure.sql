@@ -1,15 +1,3 @@
---EXEC PopulateDatabase
---    @NumClientes = 100,
---    @NumConcessionarias = 10,
---    @NumVendedores = 50,
---    @NumProdutos = 200,
---    @NumSeguros = 150,
---    @NumSimulacoes = 300,
---    @NumPropostas = 500;
-
-
-
-
 -- Stored Procedure para Popular o Banco de Dados com Dados Aleatórios
 CREATE PROCEDURE PopulateDatabase
     @NumClientes INT,
@@ -71,7 +59,7 @@ BEGIN
     SET @i = 1;
     WHILE @i <= @NumClientes
     BEGIN
-        SET @TipoDocumentoID = (SELECT TOP 1 TipoDocumentoID FROM TipoDocumento ORDER BY NEWID());
+        SET @TipoDocumentoID = (SELECT TOP 1 Id FROM TipoDocumento ORDER BY NEWID());
         INSERT INTO Cliente (Nome, Sobrenome, DataNascimento, Sexo, TipoDocumentoID, NumeroDocumento, EstadoCivil, Telefone, Email)
         VALUES (
             'ClienteNome' + CAST(@i AS VARCHAR(10)),
@@ -93,7 +81,7 @@ BEGIN
     WHILE @i <= @TotalClientes * 2 -- Assumindo 2 endereços por cliente
     BEGIN
         SET @ClienteID = ((@i - 1) % @TotalClientes) + 1;
-        SET @CepID = (SELECT TOP 1 CepID FROM Cep ORDER BY NEWID());
+        SET @CepID = (SELECT TOP 1 Id FROM Cep ORDER BY NEWID());
         INSERT INTO Endereco (TipoEndereco, Numero, ClienteID, CepID, Ativo)
         VALUES (
             CASE WHEN ABS(CHECKSUM(NEWID())) % 2 = 0 THEN 'Residencial' ELSE 'Comercial' END,
@@ -134,7 +122,7 @@ BEGIN
     WHILE @i <= @NumVendedores
     BEGIN
         SET @ConcessionariaID = ABS(CHECKSUM(NEWID())) % @NumConcessionarias + 1;
-        SET @TipoDocumentoID = (SELECT TOP 1 TipoDocumentoID FROM TipoDocumento ORDER BY NEWID());
+        SET @TipoDocumentoID = (SELECT TOP 1 Id FROM TipoDocumento ORDER BY NEWID());
         INSERT INTO Vendedor (Nome, Sobrenome, TipoDocumentoID, NumeroDocumento, ConcessionariaID, PercentualComissao, Ativo)
         VALUES (
             'VendedorNome' + CAST(@i AS VARCHAR(10)),
@@ -174,7 +162,7 @@ BEGIN
         SET @ClienteID = ABS(CHECKSUM(NEWID())) % @TotalClientes + 1;
         SET @ProdutoID = ABS(CHECKSUM(NEWID())) % @NumProdutos + 1;
         SET @VendedorID = ABS(CHECKSUM(NEWID())) % @NumVendedores + 1;
-        SET @ConcessionariaID = (SELECT ConcessionariaID FROM Vendedor WHERE VendedorID = @VendedorID);
+        SET @ConcessionariaID = (SELECT ConcessionariaID FROM Vendedor WHERE Id = @VendedorID);
         INSERT INTO Seguros (Nome, Descricao, ValorPremio, Franquia, ClienteID, ProdutoID, VendedorID, ConcessionariaID, Ativo)
         VALUES (
             'Seguro ' + CAST(@i AS VARCHAR(10)),
@@ -196,7 +184,7 @@ BEGIN
     BEGIN
         SET @ClienteID = ABS(CHECKSUM(NEWID())) % @TotalClientes + 1;
         SET @VendedorID = ABS(CHECKSUM(NEWID())) % @NumVendedores + 1;
-        SET @ConcessionariaID = (SELECT ConcessionariaID FROM Vendedor WHERE VendedorID = @VendedorID);
+        SET @ConcessionariaID = (SELECT ConcessionariaID FROM Vendedor WHERE Id = @VendedorID);
         SET @ProdutoID = ABS(CHECKSUM(NEWID())) % @NumProdutos + 1;
         SET @SeguroID = ABS(CHECKSUM(NEWID())) % @NumSeguros + 1;
         INSERT INTO Simulacao (DataSimulacao, ClienteID, VendedorID, ConcessionariaID, ProdutoID, SeguroID, ValorVeiculo, Entrada, QuantidadeParcelas, ValorParcela, TaxaJuros)
@@ -221,11 +209,11 @@ BEGIN
     WHILE @i <= @NumPropostas
     BEGIN
         SET @SimulacaoID = ABS(CHECKSUM(NEWID())) % @NumSimulacoes + 1;
-        SET @SimulacaoClienteID = (SELECT ClienteID FROM Simulacao WHERE SimulacaoID = @SimulacaoID);
-        SET @SimulacaoProdutoID = (SELECT ProdutoID FROM Simulacao WHERE SimulacaoID = @SimulacaoID);
-        SET @SimulacaoConcessionariaID = (SELECT ConcessionariaID FROM Simulacao WHERE SimulacaoID = @SimulacaoID);
-        SET @SimulacaoSeguroID = (SELECT SeguroID FROM Simulacao WHERE SimulacaoID = @SimulacaoID);
-        SET @SimulacaoVendedorID = (SELECT VendedorID FROM Simulacao WHERE SimulacaoID = @SimulacaoID);
+        SET @SimulacaoClienteID = (SELECT ClienteID FROM Simulacao WHERE Id = @SimulacaoID);
+        SET @SimulacaoProdutoID = (SELECT ProdutoID FROM Simulacao WHERE Id = @SimulacaoID);
+        SET @SimulacaoConcessionariaID = (SELECT ConcessionariaID FROM Simulacao WHERE Id = @SimulacaoID);
+        SET @SimulacaoSeguroID = (SELECT SeguroID FROM Simulacao WHERE Id = @SimulacaoID);
+        SET @SimulacaoVendedorID = (SELECT VendedorID FROM Simulacao WHERE Id = @SimulacaoID);
         INSERT INTO Propostas (SimulacaoID, ClienteID, ProdutoID, ConcessionariaID, DataProposta, ValorProposto, ValorEntrada, QuantidadeParcelas, ValorParcela, TaxaJuros, SeguroID, VendedorID)
         VALUES (
             @SimulacaoID,

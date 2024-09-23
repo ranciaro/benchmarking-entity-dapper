@@ -22,7 +22,7 @@ services:
     image: mcr.microsoft.com/mssql-tools
     depends_on:
       - mssql
-    command: /bin/bash -c 'until /opt/mssql-tools/bin/sqlcmd -S mssql -U sa -P "Password@123" -Q "create database [poc-test]"; do sleep 5; done'
+    command: /bin/bash -c 'until /opt/mssql-tools/bin/sqlcmd -S mssql -U sa -P "Password@123" -Q "create database [poc-test-dapper]"; do sleep 5; done'
 
   flyway_poc_test:
     image: flyway/flyway

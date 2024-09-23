@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistencePoc.Api", "src\PersistencePoc.Api\PersistencePoc.Api.csproj", "{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersistencePoc.Api", "src\PersistencePoc.Api\PersistencePoc.Api.csproj", "{5BF1E7EB-D948-4757-9A5C-6304252ED1C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistencePoc.Core", "src\PersistencePoc.Core\PersistencePoc.Core.csproj", "{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersistencePoc.Core", "src\PersistencePoc.Core\PersistencePoc.Core.csproj", "{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistencePoc.Infra.EntityFrameworkSix", "src\PersistencePoc.Infra.EntityFrameworkSix\PersistencePoc.Infra.EntityFrameworkSix.csproj", "{FED34E71-7247-469B-8171-24569F27B21F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistencePoc.Infra.Dapper", "src\PersistencePoc.Infra.Dapper\PersistencePoc.Infra.Dapper.csproj", "{4052D92F-38FB-4529-B7D7-02B8654EB6C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{997C154E-FB6F-4F3C-A8D6-34DDCCF9E0DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED34E71-7247-469B-8171-24569F27B21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED34E71-7247-469B-8171-24569F27B21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED34E71-7247-469B-8171-24569F27B21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED34E71-7247-469B-8171-24569F27B21F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4052D92F-38FB-4529-B7D7-02B8654EB6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4052D92F-38FB-4529-B7D7-02B8654EB6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4052D92F-38FB-4529-B7D7-02B8654EB6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4052D92F-38FB-4529-B7D7-02B8654EB6C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
